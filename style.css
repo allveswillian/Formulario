@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+header{
+    margin: 5px;
+    padding: 10px;     
+}
+
+h1{
+    font-size: 1.5rem;
+}
+
+form{
+    margin: 15px;
+    padding: 15px;
+    border: 1px solid black;
+}
+
+fieldset{
+    margin-bottom: 15px;
+    padding: 10px;
+    display: flex;
+    border: 5px groove aquamarine;
+    align-items: baseline;
+    gap: 15px;
+}
+
+legend{
+    padding: 5px;
+}
+
+label{
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+div{
+    margin: 20px;
+}
+
+input{
+    border-radius: 5px;
+    padding: 7px;
+    border: 1px solid black; 
+    
+}
+
+select{
+    padding: 7px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+button{
+    padding: 7px;
+    background-color: aquamarine;
+    border-radius: 5px;
+    width: 65px;
+}
